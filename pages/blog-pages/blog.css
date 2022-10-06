@@ -149,7 +149,7 @@ footer{
   width: 100%;
   position: fixed;
   top: 0;
-  background-color:#fff;
+  background-color:#141C2E;
 }
 
 .grad-bar {
@@ -193,7 +193,7 @@ nav{
 }
 
 .nav-item a {
-  color: #000;
+  color: #FFF;
   font-size: 0.9rem;
   font-weight: 400;
   text-decoration: none;
