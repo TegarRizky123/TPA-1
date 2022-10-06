@@ -8,12 +8,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* BODY */
-body{
-  background: #000;
-  text-transform: uppercase; 
-}
-
 /* HEADINGS */
 
 h1{
@@ -29,12 +23,12 @@ h3{
 
 /* SKILL */
 .skill{
+  text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   width: 500px;
   margin: 60px auto;
   color: #141C2E;
-  padding: 20px;
-  padding-top: 30px;
+  padding: 20px 40px;
   box-shadow: 0 10px 23px rgba(0, 0, 0, 0.15),0 10px rgba(0, 0, 0, 0.21);
 }
 
@@ -44,7 +38,7 @@ h3{
 }
 
 .bar{
-  background:#141C2E;
+  background: #141C2E;
   display: block;
   height: 20px;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -61,13 +55,70 @@ h3{
 .bar span{
   height: 20px;
   float: left;
-  background-color: #141C2E;
+  background: linear-gradient(135deg, rgb(235, 20, 0)0%, rgb(58, 210, 69)100%);
+}
+
+.html{
+  width: 80%;
+  animation: html 3s;
+}
+
+.css{
+  width: 60%;
+  animation: css 3s;
+}
+
+.javascript{
+  width: 55%;
+  animation: javascript 3s;
+}
+
+.php{
+  width: 80%;
+  animation: php 3s;
+}
+
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+@keyframes javascript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 55%;
+  }
+}
+
+@keyframes php{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
 }
 
 
 
  /* footer */
 footer{
+  text-align: center;
   padding-top: 30px;
   background-color: #141C2E;
  }
@@ -156,7 +207,6 @@ nav{
 .menu-toggle .bar{
   width: 25px;
   height: 3px;
-  background-color: #fff;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
